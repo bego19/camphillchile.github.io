@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Camphill Chile | Comunidad de Vida</title>
+<meta name="description" content="Camphill Chile: comunidad de vida compartida, inclusión, naturaleza, espiritualidad y desarrollo humano.">
+<style>
+:root{
+  --forest:#526247; --earth:#74462f; --gold:#c88a28; --cream:#f7f3e9;
+  --ink:#30271f; --white:#fffdf8;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Georgia, "Times New Roman", serif;color:var(--ink);background:var(--cream);line-height:1.65}
+nav{position:sticky;top:0;z-index:20;background:rgba(247,243,233,.96);border-bottom:1px solid #ded5c4;padding:12px 5%;display:flex;justify-content:center;gap:24px;flex-wrap:wrap}
+nav a{color:var(--forest);text-decoration:none;font-size:.95rem}
+nav a:hover{color:var(--gold)}
+.hero{min-height:92vh;display:flex;align-items:center;justify-content:center;padding:40px 6%;background:linear-gradient(180deg,#fffdf9 0%,#f7f3e9 100%)}
+.hero-inner{max-width:1120px;text-align:center}
+.hero img{width:min(650px,90vw);max-height:650px;object-fit:contain;border-radius:4px;box-shadow:0 18px 45px rgba(80,60,35,.12)}
+.hero h1{font-size:clamp(2.3rem,6vw,4.8rem);font-weight:400;letter-spacing:.06em;margin:28px 0 8px;color:var(--earth)}
+.hero .lead{font-size:clamp(1.15rem,2.2vw,1.55rem);color:var(--forest);max-width:760px;margin:0 auto 28px}
+.btn{display:inline-block;background:var(--forest);color:white;text-decoration:none;padding:13px 25px;border-radius:30px;margin:5px;font-size:.95rem}
+.btn.secondary{background:transparent;color:var(--forest);border:1px solid var(--forest)}
+section{padding:90px 7%;max-width:1200px;margin:auto}
+section.alt{max-width:none;background:#fffdf8}
+h2{font-size:clamp(2rem,4vw,3rem);font-weight:400;color:var(--earth);text-align:center;margin:0 0 18px}
+.section-intro{max-width:760px;text-align:center;margin:0 auto 48px;font-size:1.12rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:22px}
+.card{background:white;border:1px solid #e4dccd;border-radius:18px;padding:28px;text-align:center;box-shadow:0 7px 20px rgba(70,50,30,.05)}
+.card .icon{font-size:2rem;margin-bottom:8px}
+.card h3{color:var(--forest);font-size:1.3rem;font-weight:500}
+.timeline{max-width:850px;margin:auto}
+.step{display:grid;grid-template-columns:130px 1fr;gap:25px;padding:20px 0;border-bottom:1px solid #ddd2c1}
+.step strong{color:var(--gold);font-size:1.05rem}
+.quote{max-width:900px;margin:25px auto;padding:35px;text-align:center;font-size:1.55rem;color:var(--forest);font-style:italic}
+.contact{background:var(--forest);color:white;max-width:none;text-align:center}
+.contact h2{color:white}
+.contact a{color:white}
+footer{background:#3e4a36;color:#f5f0e4;text-align:center;padding:25px 7%;font-size:.9rem}
+@media(max-width:650px){
+  nav{gap:12px}
+  .step{grid-template-columns:1fr;gap:4px}
+  section{padding:65px 6%}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="#vision">Nuestra visión</a>
+  <a href="#comunidad">Comunidad</a>
+  <a href="#tierra">Tierra y trabajo</a>
+  <a href="#pedagogia">Pedagogía Curativa</a>
+  <a href="#rumbo">Rumbo a Camphill Chile</a>
+  <a href="#participa">Participa</a>
+</nav>
+
+<header class="hero">
+  <div class="hero-inner">
+    <img src="camphill-chile.jpg" alt="Camphill Chile - Corporación Comunidad de Vida">
+    <h1>Camphill Chile</h1>
+    <p class="lead">Una comunidad donde cada persona tiene un lugar.</p>
+    <a class="btn" href="#vision">Conoce el proyecto</a>
+    <a class="btn secondary" href="#participa">Sé parte</a>
+  </div>
+</header>
+
+<section id="vision">
+  <h2>Nuestra visión</h2>
+  <p class="section-intro">
+    Crear en Chile una comunidad de vida compartida donde personas con y sin discapacidad
+    puedan vivir, trabajar, aprender y crecer juntas, reconociendo el valor único de cada ser humano.
+  </p>
+  <div class="quote">“Cada ser es único, cada vida es un regalo.”</div>
+</section>
+
+<section class="alt" id="comunidad">
+  <h2>Una comunidad de vida</h2>
+  <p class="section-intro">
+    Queremos que la inclusión sea una experiencia cotidiana: compartir la casa, la mesa,
+    el trabajo, el arte, la celebración y el cuidado de la tierra.
+  </p>
+  <div class="grid">
+    <article class="card"><div class="icon">🏡</div><h3>Vida compartida</h3><p>Casas y espacios de encuentro donde la vida cotidiana sea el centro de la comunidad.</p></article>
+    <article class="card"><div class="icon">🤝</div><h3>Inclusión</h3><p>Cada persona participa desde sus capacidades, necesidades, intereses y posibilidades.</p></article>
+    <article class="card"><div class="icon">🎨</div><h3>Arte y cultura</h3><p>Música, pintura, movimiento, teatro y celebraciones que nutren la vida comunitaria.</p></article>
+    <article class="card"><div class="icon">💛</div><h3>Encuentro</h3><p>Relaciones humanas basadas en respeto, dignidad, colaboración y pertenencia.</p></article>
+  </div>
+</section>
+
+<section id="tierra">
+  <h2>Tierra y trabajo</h2>
+  <p class="section-intro">
+    La tierra y el trabajo significativo forman parte de una vida comunitaria saludable.
+    Imaginamos espacios para cultivar, crear, cocinar, reparar, cuidar y aprender.
+  </p>
+  <div class="grid">
+    <article class="card"><div class="icon">🌱</div><h3>Huerta y agricultura</h3><p>Cultivar alimentos y aprender de los ritmos de la naturaleza.</p></article>
+    <article class="card"><div class="icon">🌿</div><h3>Jardinería</h3><p>Cuidar jardines, árboles y paisajes como parte de la vida cotidiana.</p></article>
+    <article class="card"><div class="icon">🪵</div><h3>Oficios</h3><p>Artesanía, madera, cocina, mantenimiento y otros trabajos con sentido.</p></article>
+    <article class="card"><div class="icon">🍞</div><h3>Alimentación</h3><p>Preparar y compartir alimentos como una experiencia de encuentro.</p></article>
+  </div>
+</section>
+
+<section class="alt" id="pedagogia">
+  <h2>Pedagogía Curativa y Terapia Social</h2>
+  <p class="section-intro">
+    El proyecto se inspira en una mirada antroposófica del ser humano y en prácticas de
+    Pedagogía Curativa y Terapia Social que buscan acompañar procesos de desarrollo,
+    autonomía, participación y vida comunitaria.
+  </p>
+</section>
+
+<section id="rumbo">
+  <h2>Rumbo a Camphill Chile</h2>
+  <p class="section-intro">
+    Estamos construyendo una visión que quiere transformarse progresivamente en una realidad de comunidad.
+  </p>
+  <div class="timeline">
+    <div class="step"><strong>Visión</strong><span>Imaginar y compartir el propósito de Camphill Chile.</span></div>
+    <div class="step"><strong>Formación</strong><span>Desarrollar capacidades humanas, pedagógicas y comunitarias.</span></div>
+    <div class="step"><strong>Comunidad</strong><span>Reunir personas, familias, profesionales y colaboradores.</span></div>
+    <div class="step"><strong>Tierra</strong><span>Encontrar y preparar un lugar para la vida comunitaria.</span></div>
+    <div class="step"><strong>Construcción</strong><span>Crear casas, talleres, espacios de encuentro y naturaleza.</span></div>
+    <div class="step"><strong>Vida</strong><span>Dar comienzo a la experiencia de Camphill Chile.</span></div>
+  </div>
+</section>
+
+<section class="alt" id="participa">
+  <h2>Sé parte</h2>
+  <p class="section-intro">
+    Camphill Chile se construye entre muchas personas. Puedes acercarte como familia,
+    profesional, voluntario, colaborador, organización, amigo o donante.
+  </p>
+  <div style="text-align:center">
+    <a class="btn" href="mailto:camphillchile@proton.me">Quiero participar</a>
+  </div>
+</section>
+
+<section class="contact" id="contacto">
+  <h2>Contacto</h2>
+  <p>Camphill Chile · Comunidad de Vida</p>
+  <p><a href="mailto:camphillchile@proton.me">camphillchile@proton.me</a></p>
+</section>
+
+<footer>
+  © 2026 Camphill Chile · Comunidad de Vida
+</footer>
+
+</body>
+</html>
